@@ -1,0 +1,25 @@
+
+  .Left{
+    position: relative;
+    width: 50%;
+  }
+  .Time{
+    position: absolute;
+    top:48%;
+    left:49%;
+    color:white;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .WatchImg{
+    width: 100%;
+  }
+  
+  @media screen and (max-width:600px){
+    .Left{
+        width: 100%;
+        text-align: center;
+    }
+  }

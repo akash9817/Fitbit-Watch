@@ -1,0 +1,53 @@
+.Right{
+    width: 50%;
+  }
+  .Straps{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .Colors{
+      display: flex;
+  }
+  .active{
+    border:1.5px solid #3e3e88;
+    border-radius: 5px;
+  }
+  .Buttons{
+    width: 100px;
+    padding: 10px 0;
+    border:none;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .Btn_Active{
+    background: #656262;
+    color: white;
+    outline: none;
+  }
+
+  .Buy_Now{
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 0;
+    border:none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    background:#3e3e88;
+    color:white
+  }
+
+  @media screen and (max-width:600px){
+    .Right{
+        padding: 0 30px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .Colors{
+        flex-wrap: wrap;
+    }
+  }
